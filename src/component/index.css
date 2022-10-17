@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+.head{
+    font-size: 50px;
+}
+.numCen{
+border: 5px solid gray;
+
+/* width: 50px; */
+padding: 10px 30px 10px 30px;
+/* padding-left: 30px; */
+/* padding-top: 5px; */
+/* height: 30px; */
+font-weight: 500;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.buttons{
+flex-direction: row;
+margin-top: 10px;
+}
+.buttons>button{
+    margin: 3px;
+ padding: 10px;
+ background-color: black;
+ color: white;
+ border-radius: 20px;
+}
